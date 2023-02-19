@@ -4,6 +4,7 @@ User, https://www.codewars.com/users/mvf90
 
 ``Not all of the solutions that have already been implemented are included in this list.``
 
+- [String Mix (JavaScript)](./JavaScript/Strings_Mix.js)
 - [The observed PIN (JavaScript)](./JavaScript/The_observed_PIN.js)
 - [Codewars style ranking system (JavaScript)](./JavaScript/Codewars_style_ranking_system.js)
 - [Primes in numbers (JavaScript)](./JavaScript/Primes_in_numbers.js)
