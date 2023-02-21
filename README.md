@@ -4,6 +4,7 @@ User, https://www.codewars.com/users/mvf90
 
 ``Not all of the solutions that have already been implemented are included in this list.``
 
+- [Are they the "same"? (Python)](./python/Are_they_the%20_same.py)
 - [Vowel Count (Python)](./python/Vowel_Count.py)
 - [Array.diff (Python)](./python/Array_diff.py)
 - [String Mix (JavaScript)](./JavaScript/Strings_Mix.js)
