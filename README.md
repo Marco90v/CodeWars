@@ -4,6 +4,7 @@ User, https://www.codewars.com/users/mvf90
 
 ``Not all of the solutions that have already been implemented are included in this list.``
 
+- [Vowel Count (Python)](./python/Vowel_Count.py)
 - [Array.diff (Python)](./python/Array_diff.py)
 - [String Mix (JavaScript)](./JavaScript/Strings_Mix.js)
 - [The observed PIN (JavaScript)](./JavaScript/The_observed_PIN.js)
