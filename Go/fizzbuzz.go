@@ -2,27 +2,38 @@ package main
 
 import (
 	"fmt"
-	"strconv"
+	"log"
+	"time"
 )
 
-func fizzbuzz(n uint16) string{
-	if n%15 == 0 {
-		return "FizzBuzz"
-	}else if n%5 == 0 {
-		return "Buzz"
-	}else if n%3 == 0 {
-		return "Fizz"
-	}else{
-		nString := strconv.FormatUint(uint64(n), 10)
-		return nString
+const Fizz string = "Fizz"
+const Buzz string = "Buzz"
+const total = 1e+6
+
+func fizzbuzz(n int) {
+	switch {
+	case n%15 == 0:
+		fmt.Printf("%d %s \n", n, Fizz+Buzz)
+	case n%5 == 0:
+		fmt.Printf("%d %s \n", n, Buzz)
+	case n%3 == 0:
+		fmt.Printf("%d %s \n", n, Fizz)
+	default:
+		fmt.Printf("%d \n", n)
 	}
 }
 
-func main(){
-	var i uint16 = 1
-	for i < 1000 {
-		var res = fizzbuzz(i)
-		fmt.Println(res)
+func ExecTime(start time.Time, name string) {
+	elapsed := time.Since(start)
+	log.Printf("%s took %s", name, elapsed)
+}
+
+func main() {
+	defer ExecTime(time.Now(), "main")
+
+	var i int = 1
+	for i < total {
+		fizzbuzz(i)
 		i++
 	}
 }
